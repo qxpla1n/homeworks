@@ -1,0 +1,67 @@
+@import url("reset.css");
+
+/* Універсальний селектор */
+* {
+  color: darkgray;
+}
+
+/* Селектори за типом елемента */
+h1 {
+  color: navy;
+}
+
+/* Селектори за класом */
+.header__title {
+  color: darkblue;
+}
+
+/* Селектори за ідентифікатором */
+#top {
+  color: darkgreen;
+}
+
+/* Селектори за атрибутом */
+[href] {
+  color: purple;
+}
+
+/* Селектор атрибута за початковим значенням */
+a[href^="https"] {
+  color: darkcyan;
+}
+
+/* Селектор атрибута за кінцевим значенням */
+a[href$=".ua"] {
+  color: darkorange;
+}
+
+/* Груповий селектор */
+h2,
+h3 {
+  color: brown;
+}
+
+p > span {
+  color: aquamarine;
+}
+
+/* Комбінатор нащадків */
+.cities li {
+  color: forestgreen;
+}
+
+/* Дочірній селектор */
+ul > li,
+ol > li {
+  color: chocolate;
+}
+
+/* Комбінатор сусідніх елементів */
+h2 + p {
+  color: darkviolet;
+}
+
+/* Комбінатор усіх сусідніх елементів */
+h3 ~ p {
+  color: darkgoldenrod;
+}
