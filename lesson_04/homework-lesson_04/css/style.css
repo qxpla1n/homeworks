@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: #232323;
+}
+
+mark {
+  color: #fff;
+  padding: 2px;
+  border-radius: 2px;
+  background-color: #e50000;
+}
+
+/* ---------- Menu ---------- */
+.menu {
+  font-size: 18px;
+}
+
+/* ---------- Section ---------- */
+.section__top {
+  text-align: center;
+}
+
+.section__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  color: #ff0000;
+
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.section__text {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+
+  color: #141414;
+}
+
+.section__text-span {
+  font-family: "PlayfairDisplay", serif;
+  font-size: 30px;
+  font-weight: 700;
+
+  color: #e50000;
+}
+
+/* ---------- Section Plot ---------- */
+.plot__title {
+  font-family: "PlayfairDisplay", serif;
+  font-style: italic;
+  font-size: 30px;
+
+  color: #ff1919;
+}
+
+.plot__text {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2.5px;
+
+  color: darkred;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  font-size: 14px;
+}
+
+.footer__to-top {
+  font-family: "PlayfairDisplay", serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: underline;
+  white-space: nowrap;
+
+  color: #e50000;
+}
