@@ -1,0 +1,110 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+[class*="__container"] {
+  max-width: 1210px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+/* ----------- Header ----------- */
+.header__wrapper {
+  padding-block: 50px;
+}
+
+.header__logo {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* ----------- Section Hero ----------- */
+.hero {
+  padding-block: 50px;
+  min-height: 612px;
+  color: #2f302c;
+  background-color: #d4d4d4;
+}
+
+.hero__title {
+  max-width: 518px;
+  font-size: 96px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.hero__title-span {
+  font-weight: 700;
+}
+
+/* ----------- Section Choose ----------- */
+.choose {
+  padding-top: 82px;
+  padding-bottom: 14px;
+  text-align: center;
+  line-height: 1.25;
+  color: #2f302c;
+}
+
+.choose__title {
+  margin-bottom: 72px;
+
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.choose__list {
+  margin-left: -34px;
+  margin-right: -34px;
+  font-size: 0;
+}
+
+/* ----------- Card choose ----------- */
+.card-choose {
+  display: inline-block;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-bottom: 68px;
+  width: 33.333%;
+  font-size: 16px;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.card-choose__icon {
+  margin-bottom: 24px;
+}
+
+.card-choose__title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-choose__text {
+  font-weight: 500;
+  color: #7e7f7c;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  line-height: 1.25;
+  text-align: center;
+}
+
+.footer__wrapper {
+  padding-block: 50px;
+  border-top: 1px solid #d4d4d4;
+}
+
+.footer__copy {
+  font-weight: 500;
+  color: #7e7f7c;
+}
