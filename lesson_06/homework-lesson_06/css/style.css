@@ -1,0 +1,242 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+[class*="__container"] {
+  max-width: 1390px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+/* ----------- Header ----------- */
+.header__wrapper {
+  padding-block: 50px;
+}
+
+.header__logo {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* ----------- Section Hero ----------- */
+.hero {
+  padding-top: 114px;
+  padding-bottom: 50px;
+  min-height: 612px;
+  color: #2f302c;
+  background: #d4d4d4 url("./../img/hero-bg.jpg") center / cover no-repeat;
+}
+
+.hero__wrapper {
+  padding-right: 130px;
+}
+
+.hero__content {
+  max-width: 518px;
+  margin-left: auto;
+}
+
+.hero__subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 96px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.hero__line {
+  margin-bottom: 36px;
+  max-width: 308px;
+  height: 1px;
+  background-color: #2f302c;
+}
+
+.hero__title-span {
+  font-weight: 700;
+}
+
+.hero__text {
+  max-width: 374px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #7e7f7c;
+}
+
+/* ----------- Plans ----------- */
+.plans {
+  margin-bottom: 72px;
+  padding-block: 110px;
+  color: #fff;
+  background-color: #252b42;
+}
+
+.plans__container {
+  max-width: 1099px;
+}
+
+.plans__top {
+  margin-bottom: 92px;
+  text-align: center;
+}
+
+.plans__title {
+  margin-bottom: 25px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.plans__text {
+  font-family: "Montserrat", sans-serif;
+  max-width: 507px;
+  margin-inline: auto;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.01em;
+}
+
+.plans__list {
+  margin-left: -4px;
+  margin-right: -4px;
+  font-size: 0;
+}
+
+.plans__item {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 16px;
+}
+
+/* ----------- Plan-card ----------- */
+.plan-card {
+  display: inline-block;
+  max-width: 351px;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+  background-color: #fff;
+  letter-spacing: 0.16px;
+  border-radius: 8px;
+  box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+.plan-card__title {
+  margin-bottom: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.plan-card__info {
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.plan-card__price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+.plan-card__discount {
+  display: block;
+}
+
+.plan-card__text {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #737373;
+}
+
+.plan-card__period {
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.plan-card__line {
+  margin-bottom: 17px;
+  max-width: 47px;
+  height: 4px;
+  background-color: #31a0fe;
+}
+
+.plan-card__text-desc {
+  margin-bottom: 17px;
+}
+
+.plan-card__list {
+  padding-top: 16px;
+  padding-bottom: 1px;
+  margin-bottom: 17px;
+}
+
+.plan-card__item {
+  min-height: 32px;
+  margin-bottom: 15px;
+  padding-left: 42px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+}
+
+.plan-card__item--checked {
+  background: url("./../icons/checked.svg") left center no-repeat;
+}
+
+.plan-card__item--unchecked {
+  background: url("./../icons/unchecked.svg") left center no-repeat;
+}
+
+.plan-card__button {
+  text-align: center;
+}
+
+.plan-card__link {
+  display: inline-block;
+  width: 100%;
+  padding-inline: 20px;
+  padding-block: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.14px;
+  text-transform: capitalize;
+  border: 1px solid #252b42;
+  border-radius: 24px;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  line-height: 1.25;
+  text-align: center;
+}
+
+.footer__wrapper {
+  padding-block: 50px;
+  border-top: 1px solid #d4d4d4;
+}
+
+.footer__copy {
+  font-weight: 500;
+  color: #7e7f7c;
+}
