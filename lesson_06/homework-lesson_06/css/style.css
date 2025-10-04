@@ -201,7 +201,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.2px;
-  line-height: 32px;
+	line-height: 2.3;
 }
 
 .plan-card__item--checked {
