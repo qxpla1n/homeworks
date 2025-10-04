@@ -26,7 +26,7 @@ body {
 /* ----------- Section Hero ----------- */
 .hero {
   padding-top: 114px;
-  padding-bottom: 50px;
+  padding-bottom: 110px;
   min-height: 612px;
   color: #2f302c;
   background: #d4d4d4 url("./../img/hero-bg.jpg") center / cover no-repeat;
