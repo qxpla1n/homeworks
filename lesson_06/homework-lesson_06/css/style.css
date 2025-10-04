@@ -189,19 +189,21 @@ body {
 }
 
 .plan-card__list {
-  padding-top: 16px;
-  padding-bottom: 1px;
+  padding-block: 16px;
   margin-bottom: 17px;
 }
 
 .plan-card__item {
   min-height: 32px;
-  margin-bottom: 15px;
   padding-left: 42px;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.2px;
-	line-height: 2.3;
+  line-height: 2.3;
+}
+
+.plan-card__item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .plan-card__item--checked {
