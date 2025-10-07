@@ -32,12 +32,8 @@ body {
   background: #d4d4d4 url("./../img/hero-bg.jpg") center / cover no-repeat;
 }
 
-.hero__wrapper {
-  padding-right: 130px;
-}
-
 .hero__content {
-  max-width: 518px;
+  max-width: 650px;
   margin-left: auto;
 }
 
