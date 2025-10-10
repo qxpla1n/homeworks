@@ -1,0 +1,479 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* ----------- Base ----------- */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+[class*="__container"] {
+  max-width: 1390px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+.none {
+  display: none !important;
+}
+
+/* ----------- Header ----------- */
+.header {
+  padding-block: 50px;
+}
+
+.header__logo {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* ----------- Section Hero ----------- */
+.hero {
+  padding-top: 114px;
+  padding-bottom: 110px;
+  min-height: 612px;
+  color: #2f302c;
+  background: #d4d4d4 url("./../img/hero-bg.jpg") center / cover no-repeat;
+}
+
+.hero__content {
+  max-width: 650px;
+  margin-left: auto;
+}
+
+.hero__content > * {
+  margin-bottom: 20px;
+}
+
+.hero__content > *:last-child {
+  margin-bottom: 0;
+}
+
+.hero__subtitle p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin-bottom: 52px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 96px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.hero__title::after {
+  content: "";
+  display: block;
+  margin-top: 16px;
+  width: 47.38%;
+  height: 1px;
+  background-color: #2f302c;
+}
+
+.hero__title-span {
+  font-weight: 700;
+}
+
+.hero__text p {
+  max-width: 374px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #7e7f7c;
+}
+
+/* ----------- Plans ----------- */
+.plans {
+  padding-block: 110px;
+  color: #fff;
+  background-color: #252b42;
+}
+
+.plans__container {
+  max-width: 1099px;
+}
+
+.plans__top {
+  margin-bottom: 92px;
+  text-align: center;
+}
+
+.plans__top > * {
+  margin-bottom: 25px;
+}
+
+.plans__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.plans__text {
+  max-width: 507px;
+  margin-inline: auto;
+}
+
+.plans__text p,
+.section__text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.14px;
+}
+
+.plans__list {
+  margin-left: -4px;
+  margin-right: -4px;
+  font-size: 0;
+}
+
+.plans__item {
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+/* ----------- Plan-card ----------- */
+.plan-card {
+  display: inline-block;
+  max-width: 351px;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+  background-color: #fff;
+  letter-spacing: 0.16px;
+  border-radius: 8px;
+  box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  transition: padding-block 0.3s ease-in-out;
+}
+
+.plan-card:hover {
+  padding-block: 58px;
+  background-color: #e1f4ff;
+}
+
+.plan-card > * {
+  margin-bottom: 17px;
+}
+
+.plan-card > *:last-child {
+  margin-bottom: 0;
+}
+
+.plan-card__title {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.plan-card__info {
+  font-size: 0;
+}
+
+.plan-card__price {
+  display: inline-block;
+  margin-right: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+.plan-card__block {
+  display: inline-block;
+}
+
+.plan-card__period {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.plan-card__text p {
+  font-size: 12px;
+  line-height: 1.3;
+  color: #737373;
+}
+
+.plan-card__line {
+  max-width: 47px;
+  height: 4px;
+  background-color: #31a0fe;
+}
+
+.plan-card__list {
+  padding-block: 16px;
+}
+
+.plan-card__item {
+  min-height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.14px;
+}
+
+.plan-card__item::before {
+  content: "";
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.plan-card__item--checked::before {
+  background: url("./../icons/checked.svg") center no-repeat;
+}
+
+.plan-card__item--unchecked::before {
+  background: url("./../icons/unchecked.svg") center no-repeat;
+}
+
+.plan-card__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.plan-card__button {
+  text-align: center;
+}
+
+.plan-card__link {
+  display: inline-block;
+  width: 100%;
+  padding-inline: 20px;
+  padding-block: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.14px;
+  text-transform: capitalize;
+  border: 1px solid #252b42;
+  border-radius: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.plan-card__link:hover {
+  color: #fff;
+  background-color: #31a0fe;
+  border-color: transparent;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  line-height: 1.25;
+  text-align: center;
+}
+
+.footer__wrapper {
+  padding-block: 50px;
+  border-top: 1px solid #d4d4d4;
+}
+
+.footer__copy p {
+  font-weight: 500;
+  color: #7e7f7c;
+}
+
+/* ----------- Game ----------- */
+.game {
+  padding-block: 50px;
+  margin-bottom: 72px;
+  background-color: #31a0fe;
+}
+
+.game__info {
+  margin-bottom: 92px;
+  color: #fff;
+  text-align: center;
+}
+
+.game__info > * {
+  margin-bottom: 25px;
+}
+
+.game__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.game__descripton {
+  max-width: 507px;
+  margin-inline: auto;
+}
+
+.game__top {
+  margin-bottom: -1px;
+  min-height: 300px;
+  background-image: url("./../img/game-bg.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.game__middle {
+  padding-inline: 15px;
+  background-image: url("./../img/road.png");
+  background-size: contain;
+}
+
+.game__hydrant {
+  display: inline-block;
+  margin-top: -129px;
+  width: 100px;
+  height: 100px;
+  background-image: url("./../img/hydrant-firefighter.svg");
+  background-size: contain;
+}
+
+.game__hose-01 {
+  width: 180px;
+  height: 20px;
+  margin-top: -52px;
+  margin-left: 77px;
+}
+
+.game__hose-02 {
+  width: 20px;
+  height: 100px;
+  margin-top: -1px;
+  margin-left: 237px;
+}
+
+.game__hose-03 {
+  width: 120px;
+  height: 10px;
+  margin-left: 237px;
+}
+
+.game__hose-04 {
+  width: 20px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 337px;
+}
+
+.game__hose-05 {
+  width: 130px;
+  height: 10px;
+  margin-top: -50px;
+  margin-left: 337px;
+}
+
+.game__hose-06 {
+  width: 20px;
+  height: 110px;
+  margin-top: -1px;
+  margin-left: 447px;
+}
+
+.game__hose-07 {
+  width: 230px;
+  height: 30px;
+  margin-top: -1px;
+  margin-left: 447px;
+}
+
+.game__hose-08 {
+  width: 20px;
+  height: 120px;
+  margin-top: -1px;
+  margin-left: 657px;
+}
+
+.game__hose-09 {
+  width: 260px;
+  height: 20px;
+  margin-top: -1px;
+  margin-left: 417px;
+}
+
+.game__hose-10 {
+  width: 20px;
+  height: 170px;
+  margin-top: -1px;
+  margin-left: 417px;
+}
+
+.game__hose-11 {
+  width: 230px;
+  height: 10px;
+  margin-top: -1px;
+  margin-left: 417px;
+}
+
+.game__hose-12 {
+  width: 15px;
+  height: 60px;
+  margin-top: -69px;
+  margin-left: 632px;
+}
+
+.game__hose-13 {
+  width: 210px;
+  height: 20px;
+  margin-top: -69px;
+  margin-left: 632px;
+}
+
+.game__hose-14 {
+  width: 20px;
+  height: 120px;
+  margin-top: -1px;
+  margin-left: 822px;
+}
+
+.game__hose-15 {
+  width: 220px;
+  height: 10px;
+  margin-top: -1px;
+  margin-left: 822px;
+}
+
+.game__right-side {
+  text-align: right;
+}
+
+.game__hose-15:hover ~ .game__right-side .game__fire-engine__siren {
+  fill: #00ff00
+}
+
+[class*="hose-"] {
+  background-color: lightblue;
+  border: 1px solid gray;
+}
+
+[class*="hose-"] {
+  visibility: hidden;
+}
+
+.game__middle > *:hover + *,
+.game__middle > *:hover {
+  visibility: visible;
+}
+
+.game__fire-engine {
+  display: inline-block;
+  margin-top: -120px;
+}
+
+.game__fire-engine__icon {
+  width: 300px;
+}
+
+.game__fire-engine__siren {
+  fill: #ff8189;
+}
+
+.game__bottom {
+  min-height: 50px;
+  background-color: #000;
+}
