@@ -306,12 +306,12 @@ body {
 }
 
 .game__descripton {
-  max-width: 507px;
+  max-width: 600px;
   margin-inline: auto;
 }
 
 .game__top {
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   min-height: 300px;
   background-image: url("./../img/game-bg.png");
   background-size: contain;
