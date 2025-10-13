@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0"
+	>
+	<title>Lesson 8</title>
+	<link
+		href="css/style.css"
+		rel="stylesheet"
+	>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container">
+			<div class="header__logo">
+				<img
+					class="logo"
+					src="icons/logo.svg"
+					alt="Shanti logo"
+				>
+				<span>
+					- Icon, vector, SVG, content.
+				</span>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="content">
+			<div class="content__container">
+				<div class="content__wrapper content__decor">
+					<div class="content__wrapper-text">
+						<p>
+							Decor element,raster PNG ~ AVIF
+						</p>
+					</div>
+				</div>
+				<div class="content__wrapper content__wrapper-photo">
+					<div class="content__wrapper-text">
+						<p>
+							Content, bitmap, JPG 1x, JPG 2x, JPG 3x, ~ AVIF 1x, AVIF 2x, AVIF 3x
+						</p>
+					</div>
+					<div class="content__wrapper-block">
+						<img
+							class="content__wrapper-img content__wrapper-img--backbend-pose"
+							srcset="img/yoga-backbend-pose_2x.avif 2x, img/yoga-backbend-pose_3x.avif 3x"
+							src="img/yoga-backbend-pose.avif"
+							alt="Woman practicing yoga in a backbend pose in a bright studio"
+						>
+					</div>
+				</div>
+				<div class="content__wrapper content__wrapper-photo">
+					<div class="content__wrapper-text">
+						<p>
+							Content, bitmap, JPG 1x, JPG 2x, JPG 3x, ~ WEBP 1x, WEBP 2x, WEBP 3x
+						</p>
+					</div>
+					<div class="content__wrapper-block">
+						<picture>
+							<source srcset="img/yoga-lotus-meditation.webp 1x, img/yoga-lotus-meditation_2x.webp 2x, img/yoga-lotus-meditation_3x.webp 3x">
+							<img
+								class="content__wrapper-img content__wrapper-img--meditation"
+								src="img/yoga-lotus-meditation.webp"
+								alt="Woman meditating in lotus pose during a yoga session"
+							>
+						</picture>
+					</div>
+				</div>
+				<div class="content__wrapper content__wrapper-photo">
+					<div class="content__wrapper-text">
+						<p>
+							Content, bitmap, JPG ~ AVIF
+						</p>
+					</div>
+					<ul class="content__wrapper-list content__wrapper-block">
+						<li class="content__wrapper-item">
+							<img
+								class="content__wrapper-img content__wrapper-img--stretch"
+								src="img/yoga-side-stretch.avif"
+								alt="Woman performing a side stretch during a yoga practice"
+							>
+						</li>
+						<li class="content__wrapper-item">
+							<img
+								class="content__wrapper-img content__wrapper-img--lunge-pose"
+								src="img/yoga-high-lunge-pose.avif"
+								alt="Woman performing a high lunge yoga pose, stretching her arms upward in a bright studio"
+							>
+						</li>
+						<li class="content__wrapper-item">
+							<img
+								class="content__wrapper-img content__wrapper-img--backbend"
+								src="img/yoga-low-lunge-backbend.avif"
+								alt="Woman in a low lunge backbend pose under a beam of light during a yoga session"
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__copy">
+				<p>
+					Copyright 2020, Inc. All rights reserved
+				</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
