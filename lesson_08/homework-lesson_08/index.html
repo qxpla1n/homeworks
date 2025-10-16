@@ -45,32 +45,72 @@
 				<div class="content__wrapper content__wrapper-photo">
 					<div class="content__wrapper-text">
 						<p>
-							Content, bitmap, JPG 1x, JPG 2x, JPG 3x, ~ AVIF 1x, AVIF 2x, AVIF 3x
-						</p>
-					</div>
-					<div class="content__wrapper-block">
-						<img
-							class="content__wrapper-img content__wrapper-img--backbend-pose"
-							srcset="img/yoga-backbend-pose_2x.avif 2x, img/yoga-backbend-pose_3x.avif 3x"
-							src="img/yoga-backbend-pose.avif"
-							alt="Woman practicing yoga in a backbend pose in a bright studio"
-						>
-					</div>
-				</div>
-				<div class="content__wrapper content__wrapper-photo">
-					<div class="content__wrapper-text">
-						<p>
-							Content, bitmap, JPG 1x, JPG 2x, JPG 3x, ~ WEBP 1x, WEBP 2x, WEBP 3x
+							Content: bitmap → JPG 1x, 2x, 3x | AVIF 1x, 2x, 3x | WEBP 1x, 2x, 3x
 						</p>
 					</div>
 					<div class="content__wrapper-block">
 						<picture>
 							<source
-								srcset="img/yoga-lotus-meditation.webp 1x, img/yoga-lotus-meditation_2x.webp 2x, img/yoga-lotus-meditation_3x.webp 3x"
+								srcset="
+									img/yoga-backbend-pose.avif 1x, 
+									img/yoga-backbend-pose_2x.avif 2x, 
+									img/yoga-backbend-pose_3x.avif 3x
+								"
+								type="image/avif"
+							>
+							<source
+								srcset="
+									img/yoga-backbend-pose.webp 1x, 
+									img/yoga-backbend-pose_2x.webp 2x, 
+									img/yoga-backbend-pose_3x.webp 3x
+								"
+								type="image/webp"
 							>
 							<img
-								class="content__wrapper-img content__wrapper-img--meditation"
-								src="img/yoga-lotus-meditation.webp"
+								class="content__wrapper-img content__wrapper-img--backbend-pose"
+								src="img/yoga-backbend-pose.jpg"
+								srcset="
+									img/yoga-backbend-pose.jpg 1x,
+									img/yoga-backbend-pose_2x.jpg 2x,
+									img/yoga-backbend-pose_3x.jpg 3x
+								"
+								alt="Woman practicing yoga in a backbend pose in a bright studio"
+							>
+						</picture>
+					</div>
+				</div>
+				<div class="content__wrapper content__wrapper-photo">
+					<div class="content__wrapper-text">
+						<p>
+							Content: bitmap → JPG 1x, 2x, 3x | AVIF 1x, 2x, 3x | WEBP 1x, 2x, 3x
+						</p>
+					</div>
+					<div class="content__wrapper-block">
+						<picture>
+							<source
+								srcset="
+									img/yoga-lotus-meditation.avif 1x, 
+									img/yoga-lotus-meditation_2x.avif 2x, 
+									img/yoga-lotus-meditation_3x.avif 3x
+								"
+								type="image/avif"
+							>
+							<source
+								srcset="
+									img/yoga-lotus-meditation.webp 1x, 
+									img/yoga-lotus-meditation_2x.webp 2x, 
+									img/yoga-lotus-meditation_3x.webp 3x
+								"
+								type="image/webp"
+							>
+							<img
+								class="content__wrapper-img content__wrapper-img content__wrapper-img--meditation"
+								src="img/yoga-lotus-meditation.jpg"
+								srcset="
+									img/yoga-lotus-meditation.jpg 1x,
+									img/yoga-lotus-meditation_2x.jpg 2x,
+									img/yoga-lotus-meditation_3x.jpg 3x
+								"
 								alt="Woman meditating in lotus pose during a yoga session"
 							>
 						</picture>
@@ -79,7 +119,7 @@
 				<div class="content__wrapper content__wrapper-photo">
 					<div class="content__wrapper-text">
 						<p>
-							Content, bitmap, JPG ~ AVIF
+							Content: bitmap → JPG | AVIF | WEBP
 						</p>
 					</div>
 					<ul class="content__wrapper-list content__wrapper-block">
