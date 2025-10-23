@@ -422,42 +422,42 @@ body {
 }
 
 /* ----------- Face ----------- */
-.blogs {
+.face {
   margin-bottom: 100px;
   font-family: "Playfair Display", serif;
 }
 
-.blogs__container {
+.face__container {
   max-width: 977px;
 }
 
-.blogs__top {
+.face__top {
   margin-bottom: 65px;
   text-align: center;
 }
 
-.blogs__title {
+.face__title {
   font-size: 36px;
 }
 
-.blogs__content {
+.face__content {
   color: #fff;
   text-align: center;
 }
 
-.blogs__list {
+.face__list {
   font-size: 0;
 	text-align: justify;
 	margin-bottom: 156px;
 }
 
-.blogs__list::after {
+.face__list::after {
   content: "";
   width: 100%;
 }
 
 /* ----------- Blog card ----------- */
-.blog-card {
+.card-face {
   display: inline-block;
   position: relative;
 	max-width: 251px;
@@ -465,7 +465,7 @@ body {
   vertical-align: top;
 }
 
-.blog-card::after {
+.card-face::after {
   content: "";
   position: absolute;
   top: 0;
@@ -476,13 +476,13 @@ body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53));
 }
 
-.blog-card__img {
+.card-face__img {
   width: 251px;
   height: 315px;
   object-fit: cover;
 }
 
-.blog-card__title {
+.card-face__title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -491,14 +491,14 @@ body {
   font-size: 27px;
 }
 
-.blog-card__link {
+.card-face__link {
   position: absolute;
   inset: 0;
   z-index: 10;
   font-size: 17px;
 }
 
-.blog-card__link-text {
+.card-face__link-text {
   position: absolute;
   bottom: 5px;
   left: 50%;
@@ -508,12 +508,12 @@ body {
   transition: all 0.3s;
 }
 
-.blog-card:hover .blog-card__link-text {
+.card-face:hover .card-face__link-text {
   bottom: 12px;
   opacity: 1;
 }
 
-.blogs__button {
+.face__button {
 	min-width: 133px;
 	padding-inline: 20px;
 	padding-block: 9px;
@@ -522,12 +522,12 @@ body {
   transition: all 0.3s;
 }
 
-.blogs__button:hover {
+.face__button:hover {
 	color: #fff;
 	background-color: #000;
 }
 
-.blogs__button:active {
+.face__button:active {
 	scale: 0.95;
 }
 
