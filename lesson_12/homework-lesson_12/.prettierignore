@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Сборки и продакшн файлы
+dist/
+build/
+out/
+
+# Минифицированные файлы
+*.min.js
+*.min.css
+
+# Кэш и временные файлы
+.cache/
+*.log
+*.tmp
+
+# Папки с библиотеками или сторонними файлами
+vendor/
+lib/
+
+# Файлы настроек IDE (не форматируем)
+.vscode/
+.idea/
+
+# Любые бинарные файлы
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+
+# Генерируемые CSS/JS из SASS/TS
+css/**/*.min.css
+js/**/*.min.js
+
+# Prettier
+.prettierrc
+.prettierignore
