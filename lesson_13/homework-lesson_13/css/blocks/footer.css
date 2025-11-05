@@ -1,0 +1,14 @@
+.footer {
+	padding-block: 72px;
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+}
+
+.footer__copy p {
+	font-weight: 500;
+	color: #7e7f7c;
+}

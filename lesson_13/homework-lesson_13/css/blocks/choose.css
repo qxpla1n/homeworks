@@ -1,0 +1,15 @@
+.choose__container {
+	max-width: 1210px;
+}
+
+.choose__list {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+	row-gap: 68px;
+	flex-wrap: wrap;
+}
+
+.choose__item {
+	flex: 0 1 348px;
+}

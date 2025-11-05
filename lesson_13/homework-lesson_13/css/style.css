@@ -1,0 +1,21 @@
+/* Base */
+@import url("base/reset.css");
+@import url("base/base.css");
+@import url("base/fonts.css");
+
+/* Components */
+@import url("components/logo.css");
+@import url("components/search.css");
+@import url("components/menu.css");
+@import url("components/actions.css");
+@import url("components/card-product.css");
+@import url("components/card-choose.css");
+@import url("components/socials.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/section.css");
+@import url("blocks/hero.css");
+@import url("blocks/products.css");
+@import url("blocks/choose.css");
+@import url("blocks/footer.css");

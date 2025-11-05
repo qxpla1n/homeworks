@@ -1,0 +1,11 @@
+.products__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 72px;
+}
+
+.products__item {
+	flex: 0 1 440px;
+}
