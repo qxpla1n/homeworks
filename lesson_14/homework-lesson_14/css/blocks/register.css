@@ -1,0 +1,29 @@
+.register__header {
+	padding-block: 82px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.register__title {
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.register__text p {
+	font-weight: 700;
+	color: #7e7f7c;
+}
+
+.register__content {
+	padding-block: 82px;
+}
+
+.register__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}

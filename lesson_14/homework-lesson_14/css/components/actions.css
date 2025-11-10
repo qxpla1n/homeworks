@@ -1,0 +1,16 @@
+.actions__list {
+	display: flex;
+	align-items: center;
+	column-gap: 44px;
+}
+
+.actions__link {
+	display: flex;
+	align-items: center;
+	column-gap: 4px;
+	transition: all 0.3s;
+}
+
+.actions__link:hover {
+	opacity: 0.5;
+}

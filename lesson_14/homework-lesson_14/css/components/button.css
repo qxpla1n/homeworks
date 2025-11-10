@@ -1,0 +1,16 @@
+.button {
+	padding-inline: 20px;
+	padding-block: 12px;
+	max-width: 336px;
+	color: #fff;
+	background-color: #2f302c;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button:active {
+	transform: scale(0.95);
+}

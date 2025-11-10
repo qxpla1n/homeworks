@@ -1,0 +1,8 @@
+.logo {
+	flex: 0 0 200px;
+}
+.logo__img {
+	width: 100%;
+	height: 42px;
+	object-fit: contain;
+}
