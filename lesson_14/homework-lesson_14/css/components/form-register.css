@@ -58,3 +58,7 @@
 .form-register__input:focus {
 	outline: none;
 }
+
+.form-register__button {
+	align-self: flex-start;
+}
