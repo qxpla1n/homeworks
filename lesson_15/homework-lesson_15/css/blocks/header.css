@@ -1,0 +1,38 @@
+.header {
+	padding-block: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.header__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 80px;
+	row-gap: 30px;
+}
+
+.header__menu {
+	margin-right: auto;
+}
+
+@media (width <=1440px) {
+	.header__search {
+		margin-right: auto;
+	}
+
+	.header__menu {
+		margin-right: 0;
+	}
+}
+
+@media (width <=1200px) {
+	.header {
+		padding-block: 30px;
+	}
+
+	.header__menu {
+		margin-right: 0;
+	}
+}
