@@ -1,0 +1,22 @@
+.logo__img {
+	width: 200px;
+	max-width: none;
+}
+
+@media (width <=992px) {
+	.logo {
+		width: 37px;
+		flex-shrink: 0;
+		overflow: hidden;
+	}
+}
+
+@media (width < 480px) {
+	.logo {
+		width: 28px;
+	}
+
+	.logo__img {
+		width: 154px;
+	}
+}

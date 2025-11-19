@@ -1,0 +1,39 @@
+.card-product:hover .card-product__img{
+	filter: brightness(0.8);
+}
+
+.card-product__link {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+}
+
+.card-product__img {
+	width: 440px;
+	height: 574px;
+	object-fit: contain;
+	transition: all 0.3s;
+}
+
+.card-product__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 12px;
+}
+
+.card-product__title {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.card-product__price {
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.4;
+}
+
+.card-product__list {
+	display: flex;
+	column-gap: 4px;
+}

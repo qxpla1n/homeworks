@@ -1,0 +1,52 @@
+.actions__list {
+	display: flex;
+	align-items: center;
+	column-gap: 44px;
+}
+
+.actions__link {
+	display: block;
+	padding-left: 24px;
+	transition: all 0.3s;
+}
+
+.actions__link--love {
+	background: url('./../../icons/heart.svg') left no-repeat;
+}
+
+.actions__link--cart {
+	background: url('./../../icons/cart.svg') left no-repeat;
+}
+
+.actions__link:hover {
+	opacity: 0.5;
+}
+
+@media (width <=1442px) {
+	.actions__list {
+		column-gap: 25px;
+	}
+}
+
+@media (width <=992px) {
+	.actions__list {
+		column-gap: 20px;
+	}
+}
+
+@media (width < 768px) {
+	.actions__link {
+		width: 25px;
+		aspect-ratio: 1;
+		padding-left: 0;
+		font-size: 0;
+		background-size: contain;
+	}
+}
+
+@media (width < 480px) {
+	.actions__link {
+		width: 21px;
+		column-gap: 15px;
+	}
+}

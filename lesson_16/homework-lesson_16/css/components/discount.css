@@ -1,0 +1,68 @@
+.discount {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 50px 50px 60px 80px;
+	position: relative;
+	min-height: 496px;
+	flex: 0 1 600px;
+	background-color: #f6f6f6;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.discount__img {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	z-index: -1;
+	object-fit: cover;
+}
+
+.discount__info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	max-width: 184px;
+}
+
+.discount__badge {
+	align-self: flex-start;
+}
+
+.discount__title {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+@media (width <=768px) {
+	.discount {
+		padding-left: 20px;
+	}
+}
+
+@media (width <=580px) {
+	.discount {
+		padding-bottom: 20px;
+	}
+
+	.discount__img {
+		right: -25px;
+	}
+
+	.discount__title {
+		font-size: 25px;
+	}
+}
+
+@media (width <=425px) {
+	.discount {
+		min-height: 0;
+	}
+
+	.discount__img {
+		width: 200px;
+		height: 200px;
+	}
+}
