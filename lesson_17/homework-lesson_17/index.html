@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		>
+		<title>Lesson 17</title>
+		<link
+			href="css/style.css"
+			rel="stylesheet"
+		>
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+
+					<div class="header__logo logo">
+						<img
+							class="logo__img"
+							src="icons/furnitur-logo.svg"
+							alt="Logo Furnitur"
+						>
+					</div>
+
+					<form
+						class="header__search search"
+						role="search"
+						action="#"
+					>
+						<button
+							class="search__button"
+							type="submit"
+						></button>
+						<input
+							class="search__input"
+							type="search"
+							name="search"
+							placeholder="Search something"
+						>
+						</label>
+					</form>
+
+					<nav class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a
+										class="menu__link"
+										href="#"
+									>
+										Home
+									</a>
+								</li>
+								<li class="menu__item">
+									<a
+										class="menu__link"
+										href="#"
+									>
+										Shop
+									</a>
+								</li>
+								<li class="menu__item">
+									<a
+										class="menu__link"
+										href="#"
+									>
+										Blog
+									</a>
+								</li>
+								<li class="menu__item">
+									<a
+										class="menu__link"
+										href="#"
+									>
+										About us
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<div class="header__actions actions">
+						<ul class="actions__list">
+							<li class="actions__item">
+								<a
+									class="actions__link actions__link--love"
+									href="#"
+								>
+									Love
+								</a>
+							</li>
+							<li class="actions__item">
+								<a
+									class="actions__link actions__link--cart"
+									href="#"
+								>
+									Cart
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="header__burger">
+						<button
+							class="burger"
+							type="button"
+						>
+							<span></span>
+						</button>
+					</div>
+
+				</div>
+			</header>
+
+			<main class="main">
+
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__content">
+							<div class="hero__subtitle">
+								<p>
+									Welcome to our
+								</p>
+							</div>
+							<h1 class="hero__title">
+								Funiture <span class="hero__title-span">gallery</span>
+							</h1>
+							<div class="hero__subtitle">
+								<p>
+									Browse our selections
+								</p>
+							</div>
+							<div class="hero__text">
+								<p>
+									Featuring sleek designs and innovative materials that
+									seamlessly blend form and function.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section banners">
+					<div class="section__container">
+						<div class="section__header section__header--hidden">
+							<h2 class="section__title visually-hidden">
+								Product banners
+							</h2>
+						</div>
+						<div class="banners__content">
+							<ul class="banners__list">
+								<li class="banners__item banners__item--small">
+									<article
+										class="product-banner product-banner--lamp product-banner--size-small product-banner--content-bottom"
+									>
+										<div class="product-banner__product">
+											<img
+												class="product-banner__img"
+												src="imgs/product-banners/lamp.png"
+												alt="Lamp product photo"
+											>
+										</div>
+										<div class="product-banner__info">
+											<h3 class="product-banner__title">
+												Hanging light
+											</h3>
+											<div class="product-banner__text">
+												<p>
+													Upgrade your space with our modern hanging light,
+													featuring sleek lines, energy-efficient LED lighting,
+													and adjustable height.
+												</p>
+											</div>
+											<a
+												class="product-banner__link "
+												href="#"
+											>
+												View more
+											</a>
+										</div>
+									</article>
+								</li>
+
+								<li class="banners__item banners__item--big">
+									<article
+										class="product-banner product-banner--align-center product-banner--sofa product-banner--size-big"
+									>
+										<div class="product-banner__product">
+											<img
+												class="product-banner__img"
+												src="imgs/product-banners/sofa.png"
+												alt="Sofa product photo"
+											>
+										</div>
+										<div class="product-banner__info">
+											<h3 class="product-banner__title">
+												Designed sofa
+											</h3>
+											<div class="product-banner__text">
+												<p>
+													Introducing our newest sofa, the perfect combination
+													of style and comfort, designed to elevate your living
+													space and provide ultimate relaxation.
+												</p>
+											</div>
+											<a
+												class="product-banner__link "
+												href="#"
+											>
+												View more
+											</a>
+										</div>
+									</article>
+								</li>
+
+								<li class="banners__item banners__item--small">
+									<article
+										class="product-banner product-banner--chair product-banner--size-small product-banner--base"
+									>
+										<div class="product-banner__product">
+											<img
+												class="product-banner__img"
+												src="imgs/product-banners/chair.png"
+												alt="Chair product photo"
+											>
+										</div>
+										<div class="product-banner__info">
+											<h3 class="product-banner__title">
+												Nova chair
+											</h3>
+											<div class="product-banner__text">
+												<p>
+													A stylish and comfortable addition to any room, with
+													its sleek design and plush cushions creating the
+													ultimate seating experience.
+												</p>
+											</div>
+											<a
+												class="product-banner__link "
+												href="#"
+											>
+												View more
+											</a>
+										</div>
+									</article>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="section partners">
+					<div class="section__container">
+						<div class="section__header">
+							<h2 class="section__title">
+								Trusted by
+							</h2>
+						</div>
+						<div class="partners__content">
+							<ul class="partners__list">
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/aspen-online.png"
+										alt="Aspen Online logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/crop-and-highlight.png"
+										alt="Crop and Highlight logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/n.png"
+										alt="N logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/miiissy.png"
+										alt="Miiissy logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/peppermint.png"
+										alt="Peppermint logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/pixie-labs.png"
+										alt="Pixie Labs logo"
+									>
+								</li>
+							</ul>
+							<ul class="partners__list partners__list--hidden">
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/n.png"
+										alt="N logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/pixie-labs.png"
+										alt="Pixie Labs logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/peppermint.png"
+										alt="Peppermint logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/miiissy.png"
+										alt="Miiissy logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/aspen-online.png"
+										alt="Aspen Online logo"
+									>
+								</li>
+								<li class="partners__item">
+									<img
+										class="partners__logo"
+										src="imgs/partners/crop-and-highlight.png"
+										alt="Crop and Highlight logo"
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="section products">
+					<div class="section__container">
+						<div class="section__header">
+							<h2 class="section__title">
+								Featured products
+							</h2>
+						</div>
+						<div class="products__content">
+							<ul class="products__list">
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/urban-lux-high-chair.jpg"
+												alt="Urban lux high chair"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Urban lux high chair
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$2668.15
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/modern-black-hanging-light.jpg"
+												alt="Modern black hanging light"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Modern black hanging light
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$1595.6
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/metro-fusion-table.jpg"
+												alt="Metro fusion table"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Metro fusion table
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$2238.30
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/lumin-desk-lamp.jpg"
+												alt="Lumin desk lamp"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Lumin desk lamp
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$1477.80
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/timeless-edge-hanging-clock.jpg"
+												alt="Timeless edge hanging clock"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Timeless edge hanging clock
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$1071.6
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="products__item card-product">
+									<a
+										class="card-product__link"
+										href="#"
+									>
+										<div class="card-product__preview">
+											<img
+												class="card-product__img"
+												src="imgs/products/zenith-pendant-light.jpg"
+												alt="Zenith pendant light"
+											>
+										</div>
+										<div class="card-product__info">
+											<h3 class="card-product__title">
+												Zenith pendant light
+											</h3>
+											<ul class="card-product__rating">
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+												<li class="card-product__rating-item">
+													<img
+														class="card-product__rating-icon"
+														src="icons/star.svg"
+														alt="Star rating"
+													>
+												</li>
+											</ul>
+											<span class="card-product__price">
+												$2069.59
+											</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="section advantages">
+					<div class="section__container section__container--advantages">
+						<div class="section__header">
+							<h2 class="section__title">
+								Why choose us?
+							</h2>
+						</div>
+						<div class="advantages__content">
+							<ul class="advantages__list">
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/planet-earth.svg"
+										alt="Icon planet earth"
+									>
+									<h3 class="card-advantages__title">
+										Global delivery
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											Experience Hassle-Free Shipping and Seamless Global
+											Connectivity with Our Trustworthy and Efficient Delivery
+											Service, Bringing the World to Your Fingertips!
+										</p>
+									</div>
+								</li>
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/package-box.svg"
+										alt="Icon package box"
+									>
+									<h3 class="card-advantages__title">
+										Free shipping
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											Shop to Your Heart's Content Without Worrying About
+											Shipping Costs: Our Free Shipping Service Delivers Your
+											Purchases with a Smile, Straight to Your Doorstep!
+										</p>
+									</div>
+								</li>
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/phone.svg"
+										alt="Icon phone"
+									>
+									<h3 class="card-advantages__title">
+										24/7 Supporting
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											Shop with Confidence Anytime, Anywhere: Our Free Shipping
+											Service Comes with 24/7 Support to Ensure Your Packages
+											Arrive Safely and On Time!
+										</p>
+									</div>
+								</li>
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/email.svg"
+										alt="Icon email"
+									>
+									<h3 class="card-advantages__title">
+										Daily email
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											Stay Up-to-Date with Your Deliveries: Enjoy the
+											Convenience of Daily Email Updates with Our Free Shipping
+											Service, Making Your Online Shopping Experience Even More
+											Enjoyable!
+										</p>
+									</div>
+								</li>
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/credit-card.svg"
+										alt="Icon credit card"
+									>
+									<h3 class="card-advantages__title">
+										Easy payment
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											Shop and Pay with Ease: Our Free Shipping Service Not Only
+											Delivers Your Packages for Free, but Also Offers Easy
+											Payment Options, Making Your Shopping Experience a Breeze!
+										</p>
+									</div>
+								</li>
+								<li class="advantages__item card-advantages">
+									<img
+										class="card-advantages__image"
+										src="icons/badge.svg"
+										alt="Icon badge"
+									>
+									<h3 class="card-advantages__title">
+										Monthly voucher
+									</h3>
+									<div class="card-advantages__text">
+										<p>
+											More Than Just Free Shipping: Our Service Rewards Your
+											Loyalty with Monthly Vouchers, Giving You More Reasons to
+											Shop and Save on Your Favorite Products!
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+			</main>
+
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__wrapper">
+						<div class="footer__copy">
+							<p>
+								Furnitur © Copyright 2020, Inc. All rights reserved
+							</p>
+						</div>
+						<div class="footer__socials socials">
+							<ul class="socials__list">
+								<li class="socials__item">
+									<a
+										class="socials__link"
+										href="#"
+									>
+										<img
+											class="socials__icon"
+											src="icons/facebook.svg"
+											alt="Facebook"
+										>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a
+										class="socials__link"
+										href="#"
+									>
+										<img
+											class="socials__icon"
+											src="icons/twitter.svg"
+											alt="Twitter"
+										>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a
+										class="socials__link"
+										href="#"
+									>
+										<img
+											class="socials__icon"
+											src="icons/instagram.svg"
+											alt="Instagram"
+										>
+									</a>
+								</li>
+								<li class="socials__item">
+									<a
+										class="socials__link"
+										href="#"
+									>
+										<img
+											class="socials__icon"
+											src="icons/pinterest.svg"
+											alt="Pinterest"
+										>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+
+</html>

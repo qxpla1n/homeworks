@@ -1,0 +1,16 @@
+.socials__list {
+	display: flex;
+	align-items: center;
+	column-gap: 32px;
+}
+
+.socials__icon {
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	transition: all 0.3s;
+}
+
+.socials__icon:hover {
+	transform: translateY(-5px);
+}

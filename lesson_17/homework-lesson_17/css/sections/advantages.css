@@ -1,0 +1,15 @@
+.advantages {
+	text-align: center;
+}
+
+.advantages__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 68px;
+}
+
+@media (width <=1024px) {
+	.advantages__list {
+		gap: 30px;
+	}
+}

@@ -1,0 +1,94 @@
+.product-banner {
+	position: relative;
+	min-height: 584px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-block: 48px;
+	padding-inline: 35px;
+	font-weight: 500;
+	color: #7e7f7c;
+	background-color: #f7f7f7;
+	overflow: hidden;
+}
+
+.product-banner--content-bottom {
+	justify-content: flex-end;
+}
+
+.product-banner--size-small .product-banner__text {
+	max-width: 241px;
+}
+
+.product-banner--align-center {
+	align-items: center;
+	text-align: center;
+}
+
+.product-banner--size-big {
+	background-color: #e6efea;
+}
+
+.product-banner--size-big .product-banner__text {
+	max-width: 310px;
+}
+
+.product-banner__product {
+	position: absolute;
+}
+
+.product-banner--lamp .product-banner__product {
+	top: 0;
+	right: 32px;
+}
+
+.product-banner--sofa .product-banner__product {
+	bottom: 51px;
+}
+
+.product-banner--chair .product-banner__product {
+	right: 0;
+	bottom: -50px;
+}
+
+.product-banner__info>*:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.product-banner__info .product-banner__text:not(:last-child) {
+	margin-bottom: 38px;
+}
+
+.product-banner--align-center .product-banner__info .product-banner__text:not(:last-child) {
+	margin-bottom: 18px;
+}
+
+.product-banner__title {
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #2f302c;
+}
+
+.product-banner__link {
+	display: inline-flex;
+	align-items: flex-end;
+	column-gap: 4px;
+	transition: color 0.3s;
+}
+
+.product-banner__link::after {
+	content: '';
+	width: 16px;
+	height: 16px;
+	background: url('./../../icons/arrow-right.svg') center / contain no-repeat;
+	transition: transform 0.3s;
+}
+
+.product-banner__link:hover {
+	color: #2f302c;
+}
+
+.product-banner__link:hover::after {
+	transform: translateX(10px);
+}

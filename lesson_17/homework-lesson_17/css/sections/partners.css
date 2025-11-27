@@ -1,0 +1,36 @@
+.partners__content {
+	display: grid;
+	row-gap: 68px;
+}
+
+.partners__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	justify-items: center;
+	column-gap: 74.4px;
+}
+
+.partners__logo {
+	width: 100%;
+	max-width: 170px;
+	aspect-ratio: 1;
+	object-fit: contain;
+}
+
+@media (width < 1242px) {
+	.partners__list--hidden {
+		display: none;
+	}
+}
+
+@media (width < 769px) {
+	.partners__logo {
+		max-width: 150px;
+	}
+}
+
+@media (width <=425px) {
+	.partners__list {
+		column-gap: 5px;
+	}
+}

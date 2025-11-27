@@ -1,0 +1,29 @@
+.card-advantages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 24px;
+}
+
+.card-advantages__image {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+}
+
+.card-advantages__title {
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.card-advantages__text {
+	font-weight: 500;
+	color: #7e7f7c;
+}
+
+@media (width <=768px) {
+	.card-advantages {
+		row-gap: 15px;
+	}
+}
