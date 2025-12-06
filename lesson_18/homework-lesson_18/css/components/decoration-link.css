@@ -1,0 +1,74 @@
+.decoration-link {
+	display: inline-block;
+	position: relative;
+
+	padding: 10px;
+
+	display: inline-flex;
+	align-items: center;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 1.6;
+	color: #343434;
+
+	text-transform: capitalize;
+}
+
+.decoration-link::before {
+	content: '';
+	width: 80px;
+	height: 80px;
+	background-color: rgba(203, 172, 144, 0.29);
+	outline: 1px solid rgba(186, 147, 111, 0.87);
+	outline-offset: 9px;
+	border-radius: 50%;
+}
+
+.decoration-link::after {
+	content: '';
+	position: absolute;
+	left: 90px;
+	width: 41px;
+	height: 41px;
+	background-color: #fff;
+	border-radius: 8px;
+	z-index: 1;
+}
+
+.decoration-link__text {
+	display: flex;
+	align-items: center;
+	column-gap: 6px;
+
+	margin-left: -28px;
+	z-index: 2;
+
+	transition: color 0.3s;
+}
+
+.decoration-link__text::after {
+	content: '';
+	width: 25px;
+	height: 25px;
+	background: url('./../../icons/right-arrow.png') no-repeat center / contain;
+}
+
+.decoration-link__text:hover {
+	color: #ba936f
+}
+
+@media (width <=768px) {
+	.decoration-link {
+		font-size: 16px;
+	}
+
+	.decoration-link::before {
+		width: 60px;
+		height: 60px;
+	}
+
+	.decoration-link::after {
+		left: 70px;
+	}
+}

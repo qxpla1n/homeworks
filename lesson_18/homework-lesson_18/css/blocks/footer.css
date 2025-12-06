@@ -1,0 +1,17 @@
+.footer {
+	padding-block: 60px;
+	text-align: center;
+	background-color: #fdefe6;
+}
+
+.footer__container {}
+
+.fotter__copy p {
+	line-height: 1.8;
+}
+
+@media (width <=768px) {
+	.footer {
+		padding-block: 40px;
+	}
+}

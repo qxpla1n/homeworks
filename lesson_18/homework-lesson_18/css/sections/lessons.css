@@ -1,0 +1,145 @@
+.lessons {
+	position: relative;
+	margin-bottom: 138px;
+}
+
+.lessons::after {
+	content: '';
+	position: absolute;
+	top: -300px;
+	right: 0;
+	width: 600px;
+	height: 600px;
+	background: url('./../../imgs/decor/decor-left.png') left no-repeat;
+	transform: scaleX(-1);
+	z-index: -1;
+}
+
+.lessons__container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 64px;
+}
+
+.lessons__header {
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+}
+
+.lessons__text {
+	max-width: 839px;
+}
+
+.lessons__text p {
+	font-size: 17px;
+	line-height: 1.59;
+}
+
+.lessons__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.lessons__list {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+.lessons__image-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 14px;
+}
+
+.lessons__image-inner {
+	overflow: hidden;
+	border-radius: 33px;
+}
+
+.lessons__image {
+	border-radius: 33px;
+	object-fit: cover;
+	transition: all 0.3s;
+}
+
+.lessons__link:hover .lessons__image {
+	transform: scale(1.1);
+}
+
+.lessons__item:nth-child(1) .lessons__image {
+	aspect-ratio: 385 / 477;
+}
+
+.lessons__item:nth-child(2) .lessons__image {
+	width: 368px;
+	aspect-ratio: 1;
+}
+
+.lessons__item:nth-child(3) .lessons__image {
+	aspect-ratio: 362 / 477;
+}
+
+.lessons__caption {
+	font-family: "Lora", serif;
+	font-size: 22px;
+	color: #ba936f;
+	text-transform: capitalize;
+}
+
+@media (width <=1024px) {
+	.lessons {
+		margin-bottom: 80px;
+	}
+
+	.lessons__container {
+		row-gap: 40px;
+	}
+
+	.lessons__text p {
+		font-size: 16px;
+	}
+
+	.lessons__list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.lessons__item:nth-child(1) .lessons__image,
+	.lessons__item:nth-child(2) .lessons__image,
+	.lessons__item:nth-child(3) .lessons__image {
+		width: 368px;
+		aspect-ratio: 1;
+	}
+}
+
+@media (width <=768px) {
+	.lessons__header {
+		row-gap: 30px;
+	}
+
+	.lessons__title {
+		font-size: 30px;
+	}
+
+	.lessons::after {
+		width: 400px;
+		height: 400px;
+		opacity: 0.7;
+	}
+}
+
+@media (width <=425px) {
+	.lessons {
+		margin-bottom: 60px;
+	}
+
+	.lessons__title {
+		font-size: 25px;
+	}
+
+	.lessons__caption {
+		font-size: 20px;
+	}
+}

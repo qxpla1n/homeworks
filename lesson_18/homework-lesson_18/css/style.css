@@ -1,0 +1,20 @@
+/* Base */
+@import url("base/reset.css");
+@import url("base/base.css");
+@import url("base/fonts.css");
+
+/* Components */
+@import url("components/decoration-link.css");
+@import url("components/typography.css");
+@import url("components/logo.css");
+@import url("components/base-button.css");
+@import url("components/burger.css");
+
+/* Sections */
+@import url("sections/hero.css");
+@import url("sections/lessons.css");
+@import url("sections/schedule.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/footer.css");
