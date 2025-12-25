@@ -1,0 +1,20 @@
+/* Base */
+@import url("base/reset.css");
+@import url("base/variables.css");
+@import url("base/fonts.css");
+@import url("base/base.css");
+@import url("base/container.css");
+
+/* Components */
+@import url("components/logo.css");
+@import url("components/burger.css");
+@import url("components/card-cosmetics.css");
+
+/* Sections */
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/cosmetics.css");
+
+/* Blocks */
+@import url("blocks/header.css");
+@import url("blocks/footer.css");

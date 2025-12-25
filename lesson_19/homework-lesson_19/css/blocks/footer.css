@@ -1,0 +1,12 @@
+.footer {
+	padding-block: 2.8125rem;
+	color: var(--color-light);
+	background-color: var(--color-footer-bg);
+	text-align: center;
+}
+
+@media (width <=48em) { /* 768px */
+	.footer__copy {
+		font-size: 0.8125rem;
+	}
+}

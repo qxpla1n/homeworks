@@ -1,0 +1,21 @@
+:root {
+	/* Container */
+	--container-width: 61.5625rem;
+	--container-padding-x: 0.9375rem;
+
+	/* Colors */
+	--color-dark: #000;
+	--color-light: #fff;
+	--color-accent: #ff3245;
+	--color-text: #000;
+	--color-bg: #fff;
+	--color-footer-bg: #2f2f2f;
+	--color-bg-header-scroll: rgba(0, 0, 0, 0.5);
+
+	/* Fonts */
+	--base-font-family: 'Playfair-Display', serif;
+	--second-font-family: 'Roboto', sans-serif;
+
+	/* Shadow */
+	--box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,5 @@
+.logo__link {
+	font-size: clamp(1.875rem, calc(1.7386rem + 0.681818vw), 2.25rem);
+	text-transform: uppercase;
+	line-height: 1.33;
+}
